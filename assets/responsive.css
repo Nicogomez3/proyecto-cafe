@@ -1,0 +1,490 @@
+@media(max-width: 1200px) {
+    .promess-titles {
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .benefit-withus {
+        padding: 0;
+        margin: 0 90px 0 90px;
+    }
+
+    .benefit-withus-titles {
+        padding-left: 90px;
+    }
+
+    .benefit-withus-ul {
+        padding-left: 30px;
+    }
+
+    .form {
+        padding: 20px;
+    }
+
+    .form-titles {
+        padding: 0;
+    }
+
+    .form-suscription {
+        margin-top: 40px;
+    }
+}
+
+
+
+@media(max-width: 992px) {
+
+    .nav-items {
+        background-color: #352208;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+        color: white;
+        font-size: 22px;
+    }
+
+    #menu-toggle:checked ~ .nav-items {
+        display: flex;
+    }
+
+    .about-img {
+        display: none;
+    }
+
+    .about-title {
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }    
+
+    .benefit {
+        margin: 0;
+    }
+
+    .benefit2 {
+        margin: 0;
+    }
+
+    .benefit3 {
+        padding: 0;
+        gap: 0;
+        padding-top: 0;
+    }    
+
+    .benefit3-info {
+        padding: 10px;
+        width: 100%;
+        gap: 45px;
+    }
+
+    .benefit3-info1,
+    .benefit3-info2 {
+        gap: 20px;
+    }
+
+    .benefit3-info1-text,
+    .benefit3-info2-text {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer {
+        padding: 30px;
+        height: 180px;
+    }
+
+    .copyright  {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0;
+    }
+
+    .copyright p {
+        margin-right: 5px;
+    }
+
+    .hr {
+        margin-right: 5px;
+    }
+
+    .copyright a {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+
+
+    .form {
+        padding: 0;
+    }
+
+    .form-titles {
+        padding: 0;
+    }
+
+    .form-suscription {
+        margin-top: 20px;
+    }
+}
+
+
+@media(max-width: 768px) {
+    .container-benfit2 {
+        gap: 10px;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 30px;
+    }
+
+    .container-benfit2 h2 {
+        font-size: 28px;
+    }
+
+    .container-benfit2 p {
+        font-size: 14px;
+    }
+
+    .benefit2-img {
+        padding: 70px;
+    }
+
+    .machine-coffee-titles {
+        padding: 20px;
+    }
+
+    .machine-coffee-img {
+        flex-direction: column;
+    }
+
+    .benefit3 {
+        height: 1400px;
+    }
+
+    .benefit3-info {
+        width: 100%;
+        gap: 0;
+        margin-top: 0;
+    }
+
+    .benefit3-info1,
+    .benefit3-info2 {
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 20px;
+        gap: 0;
+    }
+
+    .benefit3-info1-text,
+    .benefit3-info2-text {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .benefit3-info1-text p,
+    .benefit3-info2-text p {   
+        width: 100%;
+    }
+
+    .product {
+        height: 2000px;
+    }
+
+    .product-titles {
+        width: 75%;
+    }
+
+    .product-item1,
+    .product-item2 {
+        flex-direction: column;
+    }
+
+}
+
+
+
+@media (max-width: 576px) {
+
+    .hero-title {
+        width: 60%;
+    }
+
+    .hero-title h1 {
+        font-size: 38px;
+    }
+
+    .hero-title p {
+        font-size: 14px;
+        width: 100%;
+        line-height: 1.1;
+    }
+
+
+    .about-title {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-img {
+        display: none;
+    }
+
+    .benefit {
+        margin: 0;
+
+    }
+
+    .benefit-img {
+        width: 100%;
+        text-align: start;
+        background-attachment: unset;
+    }
+
+    .benefit2 {
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .benefit2-img {
+        padding: 70px;
+        width: 100%;
+    }
+
+    .container-benfit2 {
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .benefit3 {
+        height: 1400px;
+    }
+
+    .benefit3-info {
+        width: 100%;
+        gap: 0;
+        margin-top: 0;
+    }
+
+    .benefit3-info1,
+    .benefit3-info2 {
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 20px;
+        gap: 0;
+    }
+
+    .benefit3-info1-text,
+    .benefit3-info2-text {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .benefit3-info1-text p,
+    .benefit3-info2-text p {   
+        width: 100%;
+    }
+
+    .promess-bg {
+        height: 270px;
+    }
+
+    .promess-titles {
+        padding: 0;
+    }
+
+    .promess-titles h2 {
+        margin-top: 45px;
+    }
+
+    .promess-titles p {
+        font-size: 14px;
+        font-weight: 600;
+        width: 50%
+    }
+
+    .benefit-withus {
+        padding: 0;
+        margin: 0;
+    }
+
+    .benefit-withus-bg {
+        background-attachment: unset;
+        height: 650px;
+        padding: 50px 0 80px 0;
+    }
+
+    .benefit-withus-titles {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .benefit-withus-titles h2 {
+        font-size: 36px;
+    }
+
+    .benefit-withus-titles img {
+        width: 60px;
+    }
+
+    .benefit-withus-titles p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .benefit-withus-ul {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 50px;
+        width: 80%;
+    }
+
+    .benefit-withus-item {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        text-align: center;
+        gap: 15px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .benefit-withus-certified {
+        display: flex;
+        justify-content: center;
+    }
+
+    .benefit-withus-certified img {
+        padding-left: 0;
+    }
+
+    .machine-coffee-img {
+        flex-direction: column;
+    }
+
+    .product {
+        height: 2000px;
+    }
+
+    .product-titles {
+        width: 75%;
+    }
+
+    .product-item1,
+    .product-item2 {
+        flex-direction: column;
+    }
+
+    .accessories {
+        height: 900px;
+    }
+
+    .accessories-img {
+        flex-direction: column;
+        gap: 50px;
+        width: 100%;
+    }
+
+    .slogan {
+        height: 350px;
+    }
+
+    .slogan-titles {
+        width: 100%;
+    }
+
+    .slogan-titles p {
+        font-size: 14px;
+        line-height: 25px;
+        padding: 0 60px 0 60px;
+    }
+
+    .form {
+        padding: 0;
+    }
+
+    .form-titles {
+        padding: 0;
+        width: 60%;
+    }
+
+    .form-suscription {
+        margin-top: 40px;
+        align-items: center;
+    }
+
+    .input-container input {
+        width: 350px;
+    }
+
+    .footer {
+        padding: 30px;
+        height: 180px;
+    }
+
+    .copyright  {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0;
+    }
+
+    .copyright p {
+        margin-right: 5px;
+    }
+
+    .hr {
+        margin-right: 5px;
+    }
+
+    .copyright a {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media(max-width: 480px) {
+    .product-titles h2 {
+        font-size: 32px;
+    }
+
+    .slogan h2 {
+        font-size: 28px;
+    }
+}
+
+
+/* En 480px adaptar titulo h2 de la seccion benefit3-titles y que no rompa la pantalla hasta el layout 380px minimo */
+
+/* Achicar cards apartir de 480px o layout mas chico, ir comprobando */
